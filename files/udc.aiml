@@ -4,4 +4,32 @@
     <pattern>*</pattern>
     <template>I have no answer for that.</template>
   </category>
+  
+<!--
+START SEQUENCE
+-->
+<category>
+    <pattern>Hello</pattern>
+    <template>
+        <random>
+            <li>Hello! This is the Studybed Bot, I hope I can help you. I am new and still learning.</li>
+            <li>Well hello there. I am the Studybed Bot, I am still learning, I might be able to help you.</li>
+            <li>Howdy. Perhaps I can help answer a few questions</li>
+            <li>Hello! How can I help you?</li>
+            <li>Hi, Studybed are trialing me to see if I can offer help with some common questions.</li>
+        </random>
+    </template>
+</category>
+
+<category><pattern>Hi</pattern><template><srai>HELLO</srai></template></category>
+<category><pattern>Howdy</pattern><template><srai>HELLO</srai></template></category>
+<category><pattern>Good morning</pattern><template><srai>HELLO</srai></template></category>
+<category><pattern>Good evening</pattern><template><srai>HELLO</srai></template></category>
+<category><pattern>Good afternoon</pattern><template><srai>HELLO</srai></template></category>
+<category><pattern>Yo</pattern><template><srai>HELLO</srai></template></category>
+<category><pattern>How goes it</pattern><template><srai>HELLO</srai></template></category>
+<category><pattern>Watcha</pattern><template><srai>HELLO</srai></template></category>
+<category><pattern>Its nice to meet you</pattern><template><srai>HELLO</srai></template></category>
+
+
 </aiml>
