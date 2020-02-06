@@ -18,6 +18,18 @@ START SEQUENCE
             <li>Hello! How can I help you?</li>
             <li>Hi, Studybed are trialing me to see if I can offer help with some common questions.</li>
         </random>
+        <button>
+            <text>IMRE</text>
+            <url>https://imre.uk</url>
+        </button>
+        <button>
+            <text>IMRE post back</text>
+            <postback>this is a post back</postback>
+        </button>
+        <reply>
+            <text>IMRE reply</text>
+            <postback>I postback to somewhere</postback>
+        </reply>
     </template>
 </category>
 
@@ -31,5 +43,19 @@ START SEQUENCE
 <category><pattern>Watcha</pattern><template><srai>HELLO</srai></template></category>
 <category><pattern>Its nice to meet you</pattern><template><srai>HELLO</srai></template></category>
 
-
+<!--
+Q&A
+-->
+<button>
+    <text></text>
+    <url></url>
+</button>
+<button>
+    <text></text>
+    <postback></postback>
+</button>
+<reply>
+    <text></text>
+    <postback></postback>
+</reply>
 </aiml>
