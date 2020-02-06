@@ -27,8 +27,16 @@ START SEQUENCE
             <postback>this is a post back</postback>
         </button>
         <reply>
-            <text>IMRE reply</text>
-            <postback>I postback to somewhere</postback>
+            <text>IMRE #1</text>
+            <postback>Hi</postback>
+        </reply>
+        <reply>
+            <text>IMRE #2</text>
+            <postback>Hi</postback>
+        </reply>
+        <reply>
+            <text>IMRE #3</text>
+            <postback>Hi</postback>
         </reply>
     </template>
 </category>
