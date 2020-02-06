@@ -27,15 +27,15 @@ START SEQUENCE
             <postback>this is a post back</postback>
         </button>
         <reply>
-            <text>IMRE #1</text>
+            <text>Moving house</text>
             <postback>Hi</postback>
         </reply>
         <reply>
-            <text>IMRE #2</text>
+            <text>Prices</text>
             <postback>Hi</postback>
         </reply>
         <reply>
-            <text>IMRE #3</text>
+            <text>Will my studbed fit?</text>
             <postback>Hi</postback>
         </reply>
     </template>
