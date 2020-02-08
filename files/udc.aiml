@@ -9,48 +9,104 @@
 START SEQUENCE
 -->
 <category>
-    <pattern>Hello</pattern>
+    <pattern>XSTARTSTUDYBEDBOT</pattern>
     <template>
+        <image>https://www.studybed.co.uk/wp-content/uploads/StudyBed-0218-004-678x453.jpg</image>
         <random>
-            <li>Hello! This is the Studybed Bot, I hope I can help you. I am new and still learning.</li>
-            <li>Well hello there. I am the Studybed Bot, I am still learning, I might be able to help you.</li>
+            <li>Hello! This is the Studybed Bot, can I help?</li>
+            <li>Well hello there. I am the Studybed bot.</li>
             <li>Howdy. Perhaps I can help answer a few questions</li>
             <li>Hello! How can I help you?</li>
-            <li>Hi, Studybed are trialing me to see if I can offer help with some common questions.</li>
+            <li>Hi, Studybed are trialing me. Let's chat</li>
         </random>
-        <button>
-            <text>IMRE</text>
-            <url>https://imre.uk</url>
-        </button>
+            <button>
+                <text>Show me more beds </text>
+                <postback>XSHOWBEDS</postback>
+            </button>
+            <button>
+                <text>Tell me about prices</text>
+                <postback>xprices</postback>
+            </button>
+            <button>
+                <text>I need help with a Studybed</text>
+                <postback>xsupport</postback>
+            </button>
+<!--            
+            <reply>
+                <text>Moving house</text>
+                <postback>Hi</postback>
+            </reply>
+            <reply>
+                <text>Prices</text>
+                <postback>Hi</postback>
+            </reply>
+            <reply>
+                <text>Will my studbed fit?</text>
+                <postback>Hi</postback>
+            </reply>
+-->             
+<!--        
         <button>
             <text>IMRE post back</text>
             <postback>this is a post back</postback>
         </button>
-        <reply>
-            <text>Moving house</text>
-            <postback>Hi</postback>
-        </reply>
-        <reply>
-            <text>Prices</text>
-            <postback>Hi</postback>
-        </reply>
-        <reply>
-            <text>Will my studbed fit?</text>
-            <postback>Hi</postback>
-        </reply>
+-->        
+
     </template>
 </category>
 
-<category><pattern>Hi</pattern><template><srai>HELLO</srai></template></category>
-<category><pattern>Howdy</pattern><template><srai>HELLO</srai></template></category>
-<category><pattern>Good morning</pattern><template><srai>HELLO</srai></template></category>
-<category><pattern>Good evening</pattern><template><srai>HELLO</srai></template></category>
-<category><pattern>Good afternoon</pattern><template><srai>HELLO</srai></template></category>
-<category><pattern>Yo</pattern><template><srai>HELLO</srai></template></category>
-<category><pattern>How goes it</pattern><template><srai>HELLO</srai></template></category>
-<category><pattern>Watcha</pattern><template><srai>HELLO</srai></template></category>
-<category><pattern>Its nice to meet you</pattern><template><srai>HELLO</srai></template></category>
+<!--
+STARTING FROM HTML Widget
+-->
 
+<category>
+    <pattern>Hi</pattern>
+    <template>Hello</template>
+</category>
+
+<category><pattern>Howdy</pattern><template><srai>HI</srai></template></category>
+<category><pattern>Good morning</pattern><template><srai>HI</srai></template></category>
+<category><pattern>Good afternoon</pattern><template><srai>HI</srai></template></category>
+<category><pattern>Good evening</pattern><template><srai>HI</srai></template></category>
+<category><pattern>Yo</pattern><template><srai>HI</srai></template></category>
+<category><pattern>How goes it</pattern><template><srai>HI</srai></template></category>
+<category><pattern>Watcha</pattern><template><srai>HI</srai></template></category>
+<category><pattern>Its nice to meet you</pattern><template><srai>HI</srai></template></category>
+
+
+<category>
+    <pattern>Time</pattern>
+    <template>The time is</template>
+</category>
+
+<!--
+SHOW BEDS
+-->
+<category>
+    <pattern>XSHOWBEDS</pattern>
+    <template>
+    <carousel>
+        <card>
+            <title>Robots</title>
+            <subtitle>Made of metal</subtitle>
+            <image>https://www.studybed.co.uk/wp-content/uploads/StudyBed-0218-019-678x453.jpg</image>
+            <button>Tell Me More</button>
+        </card>
+        <card>
+            <title>Humans</title>
+            <subtitle>Made of carbon</subtitle>
+            <image>https://www.studybed.co.uk/wp-content/uploads/StudyBed-0218-006-678x453.jpg</image>
+            <button>Tell Me More</button>
+        </card>
+        <card>
+            <title>Humans</title>
+            <subtitle>Made of carbon</subtitle>
+            <image>https://www.studybed.co.uk/wp-content/uploads/StudyBed-0218-009_shelf-678x453.jpg</image>
+            <button>Tell Me More</button>
+        </card>
+    </carousel>
+    </template>
+</category>
 <!--
 Q&A
 -->
