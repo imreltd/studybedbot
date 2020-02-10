@@ -22,6 +22,15 @@ Q&A
 <category><pattern>^ move ^ bed ^</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
 <category><pattern>^ move ^ studybed ^</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
 
+<category><pattern>^ moving ^ bed ^</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+<category><pattern>^ moving ^ studybed ^</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+
+<category><pattern>^ instructions ^</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+<category><pattern>^ assembly ^</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+<category><pattern>^ assemble ^</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+<category><pattern>^ guide ^</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+
+
 <category><pattern>^ take ^ bed ^</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
 <category><pattern>^ take ^ studybed ^</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
 
@@ -53,7 +62,7 @@ Q&A
         Our guide to assemble or disassemble your Studybed
         <button>
             <text>Download the GUIDE</text>
-            <url>https://www.studybed.co.uk/studybedassemble.pdf</url>
+            <url>http://studybed.cxbot.ai/studybedguide.pdf</url>
         </button>
         <button>
         <text>Please contact me instead</text>
@@ -81,11 +90,18 @@ Q&A
 </category>
 
 <category>
+    <pattern>XEMAILSTUDYBED</pattern>
+    <template>
+        
+    </template>
+</category>
+
+<category>
     <pattern>XDIARYSTUDYBED</pattern>
     <template>
         <button>
             <text>Please book a call back</text>
-            <url>https://calendly.com/paul-imre</url>
+            <url>https://calendly.com/cxbot</url>
         </button>
     </template>
 </category>
