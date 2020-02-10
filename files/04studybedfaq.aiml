@@ -19,27 +19,40 @@ Q&A
 </category>
 
 
-<category><pattern>* move</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
-<category><pattern>move bed</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
-<category><pattern>move studybed</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
-<category><pattern>take apart studybed</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
-<category><pattern>disassemble bed</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
-<category><pattern>disassemble studybed </pattern><template><srai>XMOVESTUDYBED</srai></template></category>
-<category><pattern>assemble bed</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
-<category><pattern>assemble studybed</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
-<category><pattern>house move</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
-<category><pattern>relocate</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
-<category><pattern>transport bed</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
-<category><pattern>transport studybed</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
-<category><pattern>carry bed</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
-<category><pattern>carry studybed</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+<category><pattern>^ move ^ bed ^</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+<category><pattern>^ move ^ studybed ^</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+
+<category><pattern>^ take ^ bed ^</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+<category><pattern>^ take ^ studybed ^</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+
+<category><pattern>^ disassemble ^ bed ^</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+<category><pattern>^ disassemble ^ studybed ^</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+
+<category><pattern>^ relocate ^ bed ^</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+<category><pattern>^ relocate ^ studybed ^</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+
+<category><pattern>^ relocation ^ bed ^</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+<category><pattern>^ relocation ^ studybed ^</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+
+<category><pattern>^ transport ^ bed ^</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+<category><pattern>^ transport ^ studybed ^</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+
+<category><pattern>^ carry ^ bed ^</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+<category><pattern>^ carry ^ studybed ^</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+
+<category><pattern>^ shift ^ bed ^</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+<category><pattern>^ shift ^ studybed ^</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+
+<category><pattern>^ removal ^ bed ^</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+<category><pattern>^ removal ^ studybed ^</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+
 
 <category>
     <pattern>XGETGUIDE</pattern>
     <template>
         Our guide to assemble or disassemble your Studybed
         <button>
-            <text>Download GUIDE</text>
+            <text>Download the GUIDE</text>
             <url>https://www.studybed.co.uk/studybedassemble.pdf</url>
         </button>
         <button>
@@ -49,16 +62,31 @@ Q&A
     </template>
 </category>
 
-<button>
-    <text></text>
-    <url></url>
-</button>
-<button>
-    <text></text>
-    <postback></postback>
-</button>
-<reply>
-    <text></text>
-    <postback></postback>
-</reply>
+<category>
+    <pattern>XBOOKMOVE</pattern>
+    <template>How would you like us to contact you?
+    <button>
+        <text>Email from Studybed</text>
+        <postback>XEMAILSTUDYBED</postback>
+    </button>
+        <button>
+        <text>Book a call</text>
+        <postback>XDIARYSTUDYBED</postback>
+    </button>
+        <button>
+        <text>I need contact details</text>
+        <postback>XPHONESTUDYBED</postback>
+    </button>
+    </template>
+</category>
+
+<category>
+    <pattern>XDIARYSTUDYBED</pattern>
+    <template>
+        <button>
+            <text>Please book a call back</text>
+            <url>https://calendly.com/paul-imre</url>
+        </button>
+    </template>
+</category>
 </aiml>

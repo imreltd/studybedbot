@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<!--
+STAR
+-->
+   <category>
+      <pattern>I LIKE *</pattern>
+      <template>
+         I too like <star/>.
+      </template>
+   </category>
+   
+   <category>
+      <pattern>A * IS A *</pattern>
+      <template>
+         How a <star index = "1"/> can not be a <star index = "2"/>?
+      </template>
+   </category>
+
+<!--
+THAT
+-->
+   <category>
+      <pattern>WHAT ABOUT MOVIES</pattern>
+      <template>Do you like comedy movies?</template>  
+   </category>
+   
+   <category>
+      <pattern>YES</pattern>
+      <that>Do you like comedy movies</that>
+      <template>Nice, I like comedy movies too.</template>
+   </category>
+   
+   <category>
+      <pattern>NO</pattern>
+      <that>Do you like comedy movies</that>
+      <template>Ok! But I like comedy movies.</template>
+   </category> 
+   
+</aiml>
