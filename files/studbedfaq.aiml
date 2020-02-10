@@ -1,4 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-	<!-- insert your AIML categories here -->
+<!--
+Q&A
+-->
+<category>
+    <pattern>XMOVESTUDYBED</pattern>
+    <template>
+        We have a guide to do assemble/disassemble your Studybed
+        <button>
+        <text>Get guide </text>
+        <postback>XGETGUIDE</postback>
+        </button>
+        <button>
+        <text>Could Studybed do this for me?</text>
+        <postback>XBOOKMOVE</postback>
+        </button>
+    </template>
+</category>
+
+<category><pattern>_ move _ bed _</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+<category><pattern>_ move _ studybed _</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+<category><pattern>move bed</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+<category><pattern>move studybed</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+<category><pattern>take apart studybed</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+<category><pattern>disassemble bed</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+<category><pattern>disassemble studybed </pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+<category><pattern>assemble bed</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+<category><pattern>assemble studybed</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+<category><pattern>house move</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+<category><pattern>relocate</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+<category><pattern>transport bed</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+<category><pattern>transport studybed</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+<category><pattern>carry bed</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+<category><pattern>carry studybed</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+
+<category>
+    <pattern>XGETGUIDE</pattern>
+    <template>
+        Our guide to assemble or disassemble your Studybed
+        <button>
+            <text>Download GUIDE</text>
+            <url>https://www.studybed.co.uk/studybedassemble.pdf</url>
+        </button>
+        <button>
+        <text>Please contact me instead</text>
+        <postback>XBOOKMOVE</postback>
+        </button>
+    </template>
+</category>
+
+<button>
+    <text></text>
+    <url></url>
+</button>
+<button>
+    <text></text>
+    <postback></postback>
+</button>
+<reply>
+    <text></text>
+    <postback></postback>
+</reply>
 </aiml>
