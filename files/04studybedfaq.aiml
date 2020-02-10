@@ -18,8 +18,8 @@ Q&A
     </template>
 </category>
 
-<category><pattern>_ move _ bed _</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
-<category><pattern>_ move _ studybed _</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
+
+<category><pattern>* move</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
 <category><pattern>move bed</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
 <category><pattern>move studybed</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
 <category><pattern>take apart studybed</pattern><template><srai>XMOVESTUDYBED</srai></template></category>
