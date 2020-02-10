@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
+    
+<!--
+FAILED RESPONSE AND CATCH ALL
+-->    
+<!--    
   <category>
     <pattern>*</pattern>
     <template>I have no answer for that.</template>
   </category>
-  
+-->  
+
 <!--
 START SEQUENCE
 -->
