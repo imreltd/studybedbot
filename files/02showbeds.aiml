@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<!--
+SHOW BEDS
+-->
+<category>
+    <pattern>XSHOWBEDS</pattern>
+    <template>
+    <carousel>
+        <card>
+            <title>Robots</title>
+            <subtitle>Made of metal</subtitle>
+            <image>https://www.studybed.co.uk/wp-content/uploads/StudyBed-0218-019-678x453.jpg</image>
+            <button>
+                <text>Show me the website page</text>
+                <url>http://www.studybed.co.uk</url>
+            </button>
+        </card>
+        <card>
+            <title>Humans</title>
+            <subtitle>Made of carbon</subtitle>
+            <image>https://www.studybed.co.uk/wp-content/uploads/StudyBed-0218-006-678x453.jpg</image>
+            <button>Tell Me More</button>
+        </card>
+        <card>
+            <title>Humans</title>
+            <subtitle>Made of carbon</subtitle>
+            <image>https://www.studybed.co.uk/wp-content/uploads/StudyBed-0218-009_shelf-678x453.jpg</image>
+            <button>Tell Me More</button>
+        </card>
+        <card>
+            <title>Humans</title>
+            <subtitle>Made of carbon</subtitle>
+            <image>https://www.studybed.co.uk/wp-content/uploads/majestic-studybed1.jpg</image>
+            <button>Tell Me More</button>
+        </card>        
+    </carousel>
+    </template>
+</category>
+</aiml>
