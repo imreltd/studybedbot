@@ -49,7 +49,7 @@ START SEQUENCE
 
     </template>
 </category>
-
+<category><pattern>XINTRO</pattern><template><srai>XSTARTSTUDYBEDBOT</srai></template></category>
 <!--
 STARTING FROM HTML Widget
 -->
