@@ -12,8 +12,8 @@ SHOW BEDS
             <subtitle>Made of metal</subtitle>
             <image>https://www.studybed.co.uk/wp-content/uploads/StudyBed-0218-019-678x453.jpg</image>
             <button>
-                <text>Show me the website page</text>
-                <url>http://www.studybed.co.uk</url>
+                <text>George Clark Video</text>
+                <video>https://youtu.be/SshKD60Qwi0</video>
             </button>
         </card>
         <card>
@@ -37,4 +37,12 @@ SHOW BEDS
     </carousel>
     </template>
 </category>
+
+<category>
+    <pattern>XGEORGECLARK</pattern>
+    <template>
+        <video>https://youtu.be/SshKD60Qwi0</video>
+    </template>
+</category>
 </aiml>
+

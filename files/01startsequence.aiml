@@ -19,8 +19,8 @@ START SEQUENCE
                 <postback>XSHOWBEDS</postback>
             </button>
             <button>
-                <text>Tell me about prices</text>
-                <postback>xprices</postback>
+                <text>George Clark Video</text>
+                <postback>XGEORGECLARK</postback>
             </button>
             <button>
                 <text>I need help with a Studybed</text>
