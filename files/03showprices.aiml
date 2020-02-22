@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-<!--
-PRICES
--->
+	<category>
+	    <pattern>XPRICES</pattern>
+	    <template>
+	        <delay>1</delay>
+            Â£1800 Single Studybed
+            <delay>2</delay>
+            Â£1920 Small Studybed
+            <delay>2</delay>
+            Â£1980 Double Studybed
+            <delay>2</delay>
+            Â£2370 Majestic Studybed
+            <delay>2</delay>
+            Â£ 390 Top Box option
+            <delay>2</delay>
+            All prices include Vat
+            <delay>2</delay>
+            <button>
+                <text>## Back to Intro</text>
+                <postback>XINTRO</postback>
+            </button>
+	    </template>
+    </category>
 </aiml>

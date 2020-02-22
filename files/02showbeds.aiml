@@ -8,32 +8,57 @@ SHOW BEDS
     <template>
     <carousel>
         <card>
-            <title>Robots</title>
-            <subtitle>Made of metal</subtitle>
+            <title>Universal Studybed</title>
+            <subtitle>With extra headroom Â£1995</subtitle>
             <image>https://www.studybed.co.uk/wp-content/uploads/StudyBed-0218-019-678x453.jpg</image>
             <button>
-                <text>George Clark Video</text>
-                <video>https://youtu.be/SshKD60Qwi0</video>
+                <text>## More on our web page</text>
+                <url>https://www.studybed.co.uk/products/universal-studybed/</url>
+            </button>
+            <button>
+                <text>## Try the configurator</text>
+                <url>https://www.studybed.co.uk/the-studybed-configurator/</url>
+            </button>
+        </card>    
+        <card>
+            <title>Universal Studybed</title>
+            <subtitle>Top box</subtitle>
+            <image>https://www.studybed.co.uk/wp-content/uploads/StudyBed-0218-006-678x453.jpg</image>
+            <button>
+                <text>More on our web page</text>
+                <url>https://www.studybed.co.uk/products/universal-studybed/</url>
+            </button>
+            <button>
+                <text>## How much is this?</text>
+                <postback>XPRICES</postback>
             </button>
         </card>
         <card>
-            <title>Humans</title>
-            <subtitle>Made of carbon</subtitle>
-            <image>https://www.studybed.co.uk/wp-content/uploads/StudyBed-0218-006-678x453.jpg</image>
-            <button>Tell Me More</button>
-        </card>
-        <card>
-            <title>Humans</title>
-            <subtitle>Made of carbon</subtitle>
+            <title>Universal Studybed</title>
+            <subtitle>Integrated shelving</subtitle>
             <image>https://www.studybed.co.uk/wp-content/uploads/StudyBed-0218-009_shelf-678x453.jpg</image>
-            <button>Tell Me More</button>
+            <button>
+                <text>Link</text>
+                <url>https://www.studybed.co.uk/products/universal-studybed/</url>
+            </button>
+            <button>
+                <text>Link</text>
+                <url>https://www.studybed.co.uk/the-studybed-configurator/</url>
+            </button>
         </card>
         <card>
-            <title>Humans</title>
-            <subtitle>Made of carbon</subtitle>
+            <title>Majestic Studybed</title>
+            <subtitle>Full sized bed Â£2370</subtitle>
             <image>https://www.studybed.co.uk/wp-content/uploads/majestic-studybed1.jpg</image>
-            <button>Tell Me More</button>
-        </card>        
+            <button>
+                <text>Link</text>
+                <url>https://www.studybed.co.uk/products/universal-studybed/</url>
+            </button>
+            <button>
+                <text>Link</text>
+                <url>https://www.studybed.co.uk/the-studybed-configurator/</url>
+            </button>
+        </card>   
     </carousel>
     </template>
 </category>
@@ -41,8 +66,25 @@ SHOW BEDS
 <category>
     <pattern>XGEORGECLARK</pattern>
     <template>
-        <video>https://youtu.be/SshKD60Qwi0</video>
+        <!-- <image>https://www.studybed.co.uk/wp-content/uploads/StudyBed-0218-006-678x453.jpg</image> -->
+        <!-- <![CDATA[<video width="500" controls src="https://www.w3schools.com/tags/movie.mp4"></video>]]> -->
+        <video>https://www.w3schools.com/tags/movie.mp4</video>
+                    <button>
+                <text>## More on our web page</text>
+                <url>https://www.studybed.co.uk/products/universal-studybed/</url>
+            </button>
+            <button>
+                <text>## Try the configurator</text>
+                <url>https://www.studybed.co.uk/the-studybed-configurator/</url>
+            </button>
+            <button>
+                <text>## Prices</text>
+                <postback>XPRICES</postback>
+            </button>
+            <button>
+                <text>## Our latest promotions </text>
+                <postback>XSHOWBEDS</postback>
+            </button>
     </template>
 </category>
 </aiml>
-

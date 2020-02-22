@@ -15,38 +15,17 @@ START SEQUENCE
             <li>Hi, Studybed are trialing me. Let's chat</li>
         </random>
             <button>
-                <text>Show me more beds </text>
+                <text>## Show me more beds </text>
                 <postback>XSHOWBEDS</postback>
             </button>
             <button>
-                <text>George Clark Video</text>
+                <text>## George Clark Video</text>
                 <postback>XGEORGECLARK</postback>
             </button>
             <button>
-                <text>I need help with a Studybed</text>
-                <postback>xsupport</postback>
+                <text>## I need help with a Studybed</text>
+                <postback>XSUPPORT</postback>
             </button>
-<!--            
-            <reply>
-                <text>Moving house</text>
-                <postback>Hi</postback>
-            </reply>
-            <reply>
-                <text>Prices</text>
-                <postback>Hi</postback>
-            </reply>
-            <reply>
-                <text>Will my studbed fit?</text>
-                <postback>Hi</postback>
-            </reply>
--->             
-<!--        
-        <button>
-            <text>IMRE post back</text>
-            <postback>this is a post back</postback>
-        </button>
--->        
-
     </template>
 </category>
 <category><pattern>XINTRO</pattern><template><srai>XSTARTSTUDYBEDBOT</srai></template></category>

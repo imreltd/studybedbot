@@ -6,13 +6,14 @@ Q&A
 <category>
     <pattern>XMOVESTUDYBED</pattern>
     <template>
+        <delay>2</delay>
         We have a guide to do assemble/disassemble your Studybed
         <button>
-        <text>Get guide </text>
+        <text>## Get guide </text>
         <postback>XGETGUIDE</postback>
         </button>
         <button>
-        <text>Could Studybed do this for me?</text>
+        <text>## Could Studybed do this for me?</text>
         <postback>XBOOKMOVE</postback>
         </button>
     </template>
@@ -59,13 +60,14 @@ Q&A
 <category>
     <pattern>XGETGUIDE</pattern>
     <template>
+        <delay>2</delay>
         Our guide to assemble or disassemble your Studybed
         <button>
-            <text>Download the GUIDE</text>
+            <text>## Download the GUIDE</text>
             <url>http://demo.cxbot.ai/studybed/studybedguide.pdf</url>
         </button>
         <button>
-        <text>Please contact me instead</text>
+        <text>## Please contact me instead</text>
         <postback>XBOOKMOVE</postback>
         </button>
     </template>
@@ -73,17 +75,19 @@ Q&A
 
 <category>
     <pattern>XBOOKMOVE</pattern>
-    <template>How would you like us to contact you?
+    <template>
+        <delay>2</delay>
+        Would you like us to contact you?
     <button>
         <text>Email from Studybed</text>
         <postback>XEMAILSTUDYBED</postback>
     </button>
         <button>
-        <text>Book a call</text>
+        <text>## Book a call</text>
         <postback>XDIARYSTUDYBED</postback>
     </button>
         <button>
-        <text>I need contact details</text>
+        <text>## I need contact details</text>
         <postback>XPHONESTUDYBED</postback>
     </button>
     </template>
@@ -100,9 +104,24 @@ Q&A
     <pattern>XDIARYSTUDYBED</pattern>
     <template>
         <button>
-            <text>Please book a call back</text>
+            <text>## Please book a call back</text>
             <url>https://calendly.com/cxbot</url>
         </button>
     </template>
 </category>
+
+<category>
+    <pattern>XSUPPORT</pattern>
+    <template>
+        <button>
+            <text>## Please book a call back</text>
+            <url>https://calendly.com/cxbot</url>
+        </button>
+        <button>
+            <text>## I need to move a bed</text>
+            <postback>XMOVESTUDYBED</postback>
+        </button>
+    </template>
+</category>
+
 </aiml>
