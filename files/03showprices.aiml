@@ -22,4 +22,11 @@
             </button>
 	    </template>
     </category>
+
+<category><pattern>^ prices ^</pattern><template><srai>XPRICES</srai></template></category>
+<category><pattern>^ cost ^</pattern><template><srai>XPRICES</srai></template></category>
+<category><pattern>^ costs ^</pattern><template><srai>XPRICES</srai></template></category>
+<category><pattern>^ price ^</pattern><template><srai>XPRICES</srai></template></category>
+<category><pattern>^ how much ^</pattern><template><srai>XPRICES</srai></template></category>
+
 </aiml>

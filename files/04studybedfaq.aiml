@@ -7,7 +7,7 @@ Q&A
     <pattern>XMOVESTUDYBED</pattern>
     <template>
         <delay>2</delay>
-        We have a guide to do assemble/disassemble your Studybed
+        We have a guide to help you assemble/disassemble your Studybed
         <button>
         <text>## Get guide </text>
         <postback>XGETGUIDE</postback>
