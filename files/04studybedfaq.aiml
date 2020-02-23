@@ -87,7 +87,7 @@ Q&A
         <postback>XDIARYSTUDYBED</postback>
     </button>
         <button>
-        <text>## I need contact details</text>
+        <text>I need contact details</text>
         <postback>XPHONESTUDYBED</postback>
     </button>
     </template>
